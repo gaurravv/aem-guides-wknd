@@ -161,6 +161,7 @@ Import-Package: javax.annotation;version=0.0.0,*
                 <dependency>
                     <groupId>com.adobe.aem</groupId>
                     <artifactId>aem-sdk-api</artifactId>
+                    <scope>provided</scope>
                 </dependency>
             </dependencies>
         </profile>
