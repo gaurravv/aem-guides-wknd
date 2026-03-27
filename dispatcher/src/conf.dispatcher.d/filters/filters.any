@@ -6,11 +6,16 @@
 
 $include "./default_filters.any"
 
+
 # Allow components JSON model
 /0101 { /type "allow" /extension "json" /selectors "model" /path "/content/*" }
 
 # Allow manifest.webmanifest files located in the content
 /0102 { /type "allow" /extension "webmanifest" /path "/content/*/manifest" }
+
+# Allow access to WKND assets
+/0103 { /type "allow" /path "/content/dam/wknd/*" /extension '("jpg" "jpeg" "png" "gif" "pdf" "svg")' }
+/0104 { /type "allow" /url "/content/dam/wknd/*" }
 
 # Allow Quick Search
 /0110 { /type "allow" /extension "json" /selectors "searchresults" /path "/content/*" }
