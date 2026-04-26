@@ -17,64 +17,31 @@
                 element="link"
                 location="header">
                 <attributes
-                    jcr:primaryType="nt:unstructured">
-                    <as
-                        jcr:primaryType="nt:unstructured"
-                        name="as"
-                        value="style"/>
-                    <href
-                        jcr:primaryType="nt:unstructured"
-                        name="href"
-                        value="/theme/site.css"/>
-                    <rel
-                        jcr:primaryType="nt:unstructured"
-                        name="rel"
-                        value="preload stylesheet"/>
-                    <type
-                        jcr:primaryType="nt:unstructured"
-                        name="type"
-                        value="text/css"/>
-                </attributes>
+                    jcr:primaryType="nt:unstructured"
+                    as="style"
+                    href="/theme/site.css"
+                    rel="preload stylesheet"
+                    type="text/css"/>
             </css>
             <javascript
                 jcr:primaryType="nt:unstructured"
                 element="script"
                 location="header">
                 <attributes
-                    jcr:primaryType="nt:unstructured">
-                    <src
-                        jcr:primaryType="nt:unstructured"
-                        name="src"
-                        value="/theme/js/site.js"/>
-                    <async
-                        jcr:primaryType="nt:unstructured"
-                        name="async"
-                        value="true"/>
-                    <type
-                        jcr:primaryType="nt:unstructured"
-                        name="type"
-                        value="text/javascript"/>
-                </attributes>
+                    jcr:primaryType="nt:unstructured"
+                    src="/theme/js/site.js"
+                    async="true"
+                    type="text/javascript"/>
             </javascript>
             <favicon
                 jcr:primaryType="nt:unstructured"
                 element="link"
                 location="header">
                 <attributes
-                    jcr:primaryType="nt:unstructured">
-                    <href
-                        jcr:primaryType="nt:unstructured"
-                        name="href"
-                        value="/theme/images/favicons/favicon-32.png"/>
-                    <rel
-                        jcr:primaryType="nt:unstructured"
-                        name="rel"
-                        value="icon"/>
-                    <type
-                        jcr:primaryType="nt:unstructured"
-                        name="type"
-                        value="image/png"/>
-                </attributes>
+                    jcr:primaryType="nt:unstructured"
+                    href="/theme/images/favicons/favicon-32.png"
+                    rel="icon"
+                    type="image/png"/>
             </favicon>
         </items>
     </jcr:content>
