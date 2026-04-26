@@ -1,48 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
-    <jcr:content
-        jcr:primaryType="cq:PageContent"
-        prefixPath="/content/aem-site-template-standard.theme/_default"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicated="{Date}2024-01-01T00:00:00.000+00:00"
-        cq:lastReplicatedBy="admin"
-        cq:lastReplicationAction_preview="Activate"
-        cq:lastReplicated_preview="{Date}2024-01-01T00:00:00.000+00:00"
-        cq:lastReplicatedBy_preview="admin">
-        <items
-            jcr:primaryType="nt:unstructured">
-            <css
-                jcr:primaryType="nt:unstructured"
-                element="link"
-                location="header">
-                <attributes
-                    jcr:primaryType="nt:unstructured"
-                    as="style"
-                    href="/theme/site.css"
-                    rel="preload stylesheet"
-                    type="text/css"/>
-            </css>
-            <javascript
-                jcr:primaryType="nt:unstructured"
-                element="script"
-                location="header">
-                <attributes
-                    jcr:primaryType="nt:unstructured"
-                    src="/theme/js/site.js"
-                    async="true"
-                    type="text/javascript"/>
-            </javascript>
-            <favicon
-                jcr:primaryType="nt:unstructured"
-                element="link"
-                location="header">
-                <attributes
-                    jcr:primaryType="nt:unstructured"
-                    href="/theme/images/favicons/favicon-32.png"
-                    rel="icon"
-                    type="image/png"/>
-            </favicon>
-        </items>
-    </jcr:content>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <css
+        jcr:primaryType="nt:unstructured"
+        element="link"
+        location="header">
+        <attributes
+            jcr:primaryType="nt:unstructured"
+            as="style"
+            href="/theme/site.css"
+            rel="preload stylesheet"
+            type="text/css"/>
+    </css>
+    <js
+        jcr:primaryType="nt:unstructured"
+        element="script"
+        location="footer">
+        <attributes
+            jcr:primaryType="nt:unstructured"
+            src="/theme/js/site.js"
+            async="true"
+            type="text/javascript"/>
+    </js>
 </jcr:root>
