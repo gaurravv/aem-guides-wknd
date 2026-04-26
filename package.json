@@ -1,5 +1,5 @@
 {
-  "name": "aem-wknd-theme",
+  "name": "wknd",
   "version": "1.0.0",
   "description": "Generates an AEM Frontend project with Webpack",
   "repository": {
@@ -10,7 +10,7 @@
   "main": "src/main/webpack/site/main.ts",
   "license": "SEE LICENSE IN LICENSE.txt",
   "scripts": {
-    "build": "webpack --config ./webpack.prod.js",
+    "build": "webpack --config ./webpack.theme.prod.js",
     "dev": "webpack --env dev --config ./webpack.dev.js && clientlib --verbose",
     "prod": "webpack --config ./webpack.prod.js && clientlib --verbose",
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
