@@ -3,7 +3,13 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        prefixPath="/content/aem-site-template-standard.theme/_default">
+        prefixPath="/content/aem-site-template-standard.theme/_default"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicated="{Date}2024-01-01T00:00:00.000+00:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicated_preview="{Date}2024-01-01T00:00:00.000+00:00"
+        cq:lastReplicatedBy_preview="admin">
         <items
             jcr:primaryType="nt:unstructured">
             <css
