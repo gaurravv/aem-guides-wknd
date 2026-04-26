@@ -111,12 +111,15 @@
             <version>${project.version}</version>
         </dependency>
 
+        <!-- ui.frontend dependency excluded — FE pipeline owns front-end assets now -->
+        <!--
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
+        -->
 
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
