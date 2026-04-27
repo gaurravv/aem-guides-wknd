@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:unstructured">
-    <items jcr:primaryType="nt:unstructured">
-        <css
+    <css
+        jcr:primaryType="nt:unstructured"
+        element="link"
+        location="header">
+        <attributes
             jcr:primaryType="nt:unstructured"
-            element="link"
-            location="header">
-            <attributes jcr:primaryType="nt:unstructured">
-                <href jcr:primaryType="nt:unstructured" name="href" value="/theme/site.css"/>
-                <rel jcr:primaryType="nt:unstructured" name="rel" value="preload stylesheet"/>
-                <as jcr:primaryType="nt:unstructured" name="as" value="style"/>
-                <type jcr:primaryType="nt:unstructured" name="type" value="text/css"/>
-            </attributes>
-        </css>
-        <js
+            href="/theme/site.css"
+            rel="preload stylesheet"
+            as="style"
+            type="text/css"/>
+    </css>
+    <js
+        jcr:primaryType="nt:unstructured"
+        element="script"
+        location="footer">
+        <attributes
             jcr:primaryType="nt:unstructured"
-            element="script"
-            location="footer">
-            <attributes jcr:primaryType="nt:unstructured">
-                <async jcr:primaryType="nt:unstructured" name="async" value="true"/>
-                <src jcr:primaryType="nt:unstructured" name="src" value="/theme/js/site.js"/>
-            </attributes>
-        </js>
-    </items>
+            async="true"
+            src="/theme/js/site.js"/>
+    </js>
 </jcr:root>
