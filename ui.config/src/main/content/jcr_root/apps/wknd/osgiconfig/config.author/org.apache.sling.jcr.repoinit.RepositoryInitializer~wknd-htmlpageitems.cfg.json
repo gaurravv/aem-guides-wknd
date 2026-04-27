@@ -1,0 +1,5 @@
+{
+  "scripts": [
+    "create service user wknd-htmlpageitems-service with path system/cq:services/internal/wknd\n\nset ACL for wknd-htmlpageitems-service\n    allow jcr:read,rep:write,crx:replicate on /conf/wknd\nend"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "user.mapping": [
+    "com.adobe.aem.guides.wknd.core:htmlPageItemsConfigFixer=[\"wknd-htmlpageitems-service\"]"
+  ]
+}
