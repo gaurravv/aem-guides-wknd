@@ -41,3 +41,6 @@ $include "./default_filters.any"
 # ContextHub
 /0200 { /type "allow" /url "*/contexthub.pagedata.json" }
 /0201 { /type "allow" /url "/home/users/*.infinity.json" }
+
+# Allow JCR JSON on sling:configs for debugging
+/0202 { /type "allow" /method "GET" /selectors "infinity" /extension "json" /path "/conf/*" }
