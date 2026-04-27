@@ -6,20 +6,43 @@
         element="link"
         location="header">
         <attributes
-            jcr:primaryType="nt:unstructured"
-            as="style"
-            href="/theme/site.css"
-            rel="preload stylesheet"
-            type="text/css"/>
+            jcr:primaryType="nt:unstructured">
+            <as
+                jcr:primaryType="nt:unstructured"
+                name="as"
+                value="style"/>
+            <href
+                jcr:primaryType="nt:unstructured"
+                name="href"
+                value="/theme/site.css"/>
+            <rel
+                jcr:primaryType="nt:unstructured"
+                name="rel"
+                value="preload stylesheet"/>
+            <type
+                jcr:primaryType="nt:unstructured"
+                name="type"
+                value="text/css"/>
+        </attributes>
     </css>
     <js
         jcr:primaryType="nt:unstructured"
         element="script"
         location="footer">
         <attributes
-            jcr:primaryType="nt:unstructured"
-            src="/theme/js/site.js"
-            async="true"
-            type="text/javascript"/>
+            jcr:primaryType="nt:unstructured">
+            <src
+                jcr:primaryType="nt:unstructured"
+                name="src"
+                value="/theme/js/site.js"/>
+            <async
+                jcr:primaryType="nt:unstructured"
+                name="async"
+                value="true"/>
+            <type
+                jcr:primaryType="nt:unstructured"
+                name="type"
+                value="text/javascript"/>
+        </attributes>
     </js>
 </jcr:root>
