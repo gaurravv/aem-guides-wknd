@@ -4,16 +4,21 @@
     <css
         jcr:primaryType="nt:unstructured"
         element="link"
-        location="header"
-        as="style"
-        href="/theme/site.css"
-        rel="preload stylesheet"
-        type="text/css"/>
+        location="header">
+        <attributes
+            jcr:primaryType="nt:unstructured"
+            as="style"
+            href="/theme/site.css"
+            rel="preload stylesheet"
+            type="text/css"/>
+    </css>
     <js
         jcr:primaryType="nt:unstructured"
         element="script"
-        location="footer"
-        async="true"
-        src="/theme/js/site.js"
-        type="text/javascript"/>
+        location="footer">
+        <attributes
+            jcr:primaryType="nt:unstructured"
+            async="true"
+            src="/theme/js/site.js"/>
+    </js>
 </jcr:root>
